@@ -1,4 +1,4 @@
-import * as http from 'http';
+import  http from 'http';
 
 
 const app = http.createServer((req: http.IncomingMessage, res: http.ServerResponse) => {
