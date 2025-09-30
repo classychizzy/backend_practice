@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "tsc && node ./dist/index.js",
+    "dev": "tsc && nodemon ./dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,7 +21,10 @@
   "homepage": "https://github.com/classychizzy/backend_practice#readme",
   "description": "",
   "devDependencies": {
+    "@types/express": "^5.0.3",
     "@types/node": "^24.5.2",
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
     "http": "^0.0.1-security",
     "typescript": "^5.9.2"
   }
